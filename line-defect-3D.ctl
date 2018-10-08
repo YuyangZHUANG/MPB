@@ -19,9 +19,9 @@
 
 ; Step 2: Set geometry of super-cell.
 (set! geometry-lattice (make lattice (size 1 11 2) ; super-cell size is 1*11*2.
-                         (basis1 (/ (sqrt 3) 2) 0.5)
-                         (basis2 (/ (sqrt 3) 2) -0.5)
-		          (basis3 0 0 1)
+                        (basis1 (/ (sqrt 3) 2) 0.5)
+                        (basis2 (/ (sqrt 3) 2) -0.5)
+		         (basis3 0 0 1)
 ))
 
 ; Step 3: Set k-points.
@@ -38,7 +38,7 @@
 		(make block (center 0 0 0) (size infinity infinity t) (material (make dielectric (epsilon eps1))))
 	; Air holes.
 		(make cylinder 
-			(center 0 1 0) (radius r)   (height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 1 0) (radius r)       (height t)   (material (make dielectric (epsilon eps2))))
 		(make cylinder 
 			(center 0 2 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
 		(make cylinder 
