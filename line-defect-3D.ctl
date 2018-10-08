@@ -21,7 +21,7 @@
 (set! geometry-lattice (make lattice (size 1 11 2) ; super-cell size is 1*11*2.
                          (basis1 (/ (sqrt 3) 2) 0.5)
                          (basis2 (/ (sqrt 3) 2) -0.5)
-		         (basis3 0 0 1)
+		          (basis3 0 0 1)
 ))
 
 ; Step 3: Set k-points.
