@@ -3,7 +3,7 @@
 ; The PhC slab is composed of air holes with triangular lattice in silicon.                               |
 ; The PhC waveguide is formed by removing one row of air holes (W1.00).                                   |
 ; Written by Yuyang ZHUANG.                                                                               |
-; Tanabe Lab at Keio University.                                                                                             |
+; Tanabe Lab at Keio University.                                                                          |
 ; 2018/10/5.                                                                                              |
 ;---------------------------------------------------------------------------------------------------------|
 
