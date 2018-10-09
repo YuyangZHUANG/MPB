@@ -72,4 +72,5 @@
 
 ; Step 6: Run even(odd) mode.
 (run-zeven)
-;(run-zodd)
+; (run-zodd)
+; End
