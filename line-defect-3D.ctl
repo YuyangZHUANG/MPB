@@ -38,33 +38,33 @@
 		(make block (center 0 0 0) (size infinity infinity t) (material (make dielectric (epsilon eps1))))
 	; Air holes.
 		(make cylinder 
-			(center 0 1 0) (radius r)       (height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 1 0) (radius r)       (height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 2 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 2 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 3 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 3 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 4 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 4 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 5 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 5 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 6 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))	
+			(center 0 6 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))	
 		(make cylinder 
-			(center 0 7 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))	
+			(center 0 7 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))	
 		(make cylinder 
-			(center 0 -1 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 -1 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 -2 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 -2 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 -3 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 -3 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 -4 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 -4 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 -5 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))	
+			(center 0 -5 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))	
 		(make cylinder 
-			(center 0 -6 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 -6 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 		(make cylinder 
-			(center 0 -7 0) (radius r)	(height t)   (material (make dielectric (epsilon eps2))))
+			(center 0 -7 0) (radius r)	(height t)    (material (make dielectric (epsilon eps2))))
 ))
 
 ; Step 5: Set resolution.
