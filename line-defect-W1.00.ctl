@@ -2,7 +2,7 @@
 ; This .ctl file is to calculate dispersion curve of photonic crystal (PhC) waveguide using 3D simulation.
 ; The PhC slab is composed of air holes with triangular lattice in silicon.                               
 ; The PhC waveguide is formed by removing one row of air holes (W1.00). It is cladded with air.                                  
-; Written by Yuyang ZHUANG.                                                                               
+; Revised by Yuyang ZHUANG.                                                                               
 ; Tanabe Lab at Keio University.                                                                          
 ; 2018/12/31.                                                                                              
 ;---------------------------------------------------------------------------------------------------------
