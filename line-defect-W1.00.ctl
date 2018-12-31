@@ -37,7 +37,7 @@
 (set! geometry (list  
 	; Si slab.
 		(make block (center 0 0 0) (size infinity infinity t)  (material (make dielectric (epsilon eps1))))
-	; SiO2 holes.
+	; air holes.
 	; upper
 		(make cylinder 
 			(center (- 0 (/ (- w 1) 2)) (+ 1 (+ (- w 1)))) (radius r)   (height t)    (material (make dielectric (epsilon eps2))))
