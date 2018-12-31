@@ -12,11 +12,11 @@
 (define r (/ 122 a))        ; radius of air hole 122 nm
 (define t (/ 210 a))        ; thickness of PhC slab 210 nm
 (define eps1 (expt 3.47 2)) ; epsilon of silicon (Si) at 1550 nm
-(define eps2 (expt 1 2))    ; epsilon of air
+(define eps2 (expt 1.00 2)) ; epsilon of air
 (define w 1.00)             ; width factor of PhC waveguide (W1.00)
 
 ; Step 1: Set calculating band numbers.
-(set! num-bands 20)
+(set! num-bands 40)
 
 ; Step 2: Set geometry of super-cell.
 (set! geometry-lattice (make lattice (size 1 19 2) ; super-cell size is 1*19*2.
